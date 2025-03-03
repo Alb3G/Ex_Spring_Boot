@@ -2,6 +2,10 @@ package org.intro.examen.model;
 
 import java.util.List;
 
+/**
+ * Class that represents the response of the statistics endpoint
+ * @Author Alberto Guzman
+ */
 public class StatResponse {
     private int totalItems;
     private double averageRate;

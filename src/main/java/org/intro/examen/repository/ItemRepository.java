@@ -7,6 +7,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+/**
+ * Repository class that handles the requests to the store database
+ */
 @Repository
 public interface ItemRepository extends MongoRepository<Item, String> {
     Item findBy_id(String _id);
